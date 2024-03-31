@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "Hepsi.API.Development": {
+    "HepsiAPI.Development": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
@@ -19,7 +19,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Hepsi.API.Production": {
+    "HepsiAPI.Production": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
