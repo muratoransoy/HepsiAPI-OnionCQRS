@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace HepsiAPI.Domain.Entities
 {
-    public class Details : EntityBase
+    public class Detail : EntityBase
     {
-        public Details()
+        public Detail()
         {
 
         }
-        public Details(string title, string description, int categoryId)
+        public Detail(string title, string description, int categoryId)
         {
             Title = title;
             Description = description;
