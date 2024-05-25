@@ -30,6 +30,7 @@ namespace HepsiAPI.Persistence.Repositories
             if (orderBy is not null)
                 return await orderBy(queryable).ToListAsync();
 
+
             return await queryable.ToListAsync();
         }
 
