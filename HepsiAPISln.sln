@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HepsiAPI.Domain", "Core\Hep
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HepsiAPI.Infrastructure", "Infrastructure\HepsiAPI.Infrastructure\HepsiAPI.Infrastructure.csproj", "{970D36E4-FD32-4573-B785-0F567BD6C62D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiAPI.Persistence", "Infrastructure\HepsiAPI.Persistence\HepsiAPI.Persistence.csproj", "{D0A67873-C7F9-40A9-BA18-991C5F61DCAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HepsiAPI.Persistence", "Infrastructure\HepsiAPI.Persistence\HepsiAPI.Persistence.csproj", "{D0A67873-C7F9-40A9-BA18-991C5F61DCAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiAPI.API", "Presentation\HepsiAPI.API\HepsiAPI.API.csproj", "{A5E2AD19-8586-40AA-83F8-33341CC707DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HepsiAPI.API", "Presentation\HepsiAPI.API\HepsiAPI.API.csproj", "{A5E2AD19-8586-40AA-83F8-33341CC707DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiAPI.Mapper", "HepsiAPI.Mapper\HepsiAPI.Mapper.csproj", "{228E69AA-B715-419D-BC35-C3E576E9AD0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{A5E2AD19-8586-40AA-83F8-33341CC707DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5E2AD19-8586-40AA-83F8-33341CC707DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5E2AD19-8586-40AA-83F8-33341CC707DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{228E69AA-B715-419D-BC35-C3E576E9AD0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{228E69AA-B715-419D-BC35-C3E576E9AD0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{228E69AA-B715-419D-BC35-C3E576E9AD0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{228E69AA-B715-419D-BC35-C3E576E9AD0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 		{970D36E4-FD32-4573-B785-0F567BD6C62D} = {E248A808-7081-427A-895D-A741D49070C7}
 		{D0A67873-C7F9-40A9-BA18-991C5F61DCAD} = {E248A808-7081-427A-895D-A741D49070C7}
 		{A5E2AD19-8586-40AA-83F8-33341CC707DC} = {91AB4289-478D-4C99-B6B2-BA4DB824D852}
+		{228E69AA-B715-419D-BC35-C3E576E9AD0B} = {4B2711B5-C423-4D34-9BEA-CDD2690834BC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F01F278A-A463-4E60-AB9F-21B0BAC7B2F3}
